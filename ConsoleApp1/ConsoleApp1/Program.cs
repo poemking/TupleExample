@@ -22,6 +22,7 @@ namespace ConsoleApp1
             Console.WriteLine("Use the more easy Tuple to output two value");
             m.OutputBody3();
 
+            //need Nuget to install System.ValueTuple
             var (sum, count) = Calc(new int[] { 1, 2, 3 });
             Console.WriteLine(sum);
             Console.WriteLine(count);
